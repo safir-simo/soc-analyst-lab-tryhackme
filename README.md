@@ -34,6 +34,14 @@ The purpose of this lab is to learn about the functions of a Security Operation 
 ---
 
 ## Screenshots
+### Task Completion
+![Task 1](task_1.png)
+![Task 2](task_2.png)
+![Task 3](task_3.png)
+![Task 4](task_4.png)
+
+### SOC Dashboard
+![Dashboard](Soc-analyst-dashboard.png)
 
 
 ---
