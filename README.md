@@ -4,12 +4,11 @@
 
 This project uses the TryHackMe Junior Security Analyst Intro lab to demonstrate a basic Security Operations Centre (SOC) investigation.
 
-Investigating SIEM alarms, spotting malicious behaviour, analysing indicators of compromise (IoCs), and following to the SOC escalation 
-
+This project demonstrates SIEM alert investigation, detection of malicious activity, analysis of Indicators of Compromise (IoCs), and the SOC incident escalation process.
 
 --- 
 
-# 🚨 Overview of the Event
+# 🚨 Incident Summary
 
 Suspicious authentication activity involving an external IP address trying to access the company's SSH service was discovered by a SIEM warning.
 
@@ -17,7 +16,7 @@ The following malicious IP address was found during the investigation:
 
 **The malicious IP address is:** 221.181.185.159
 
-Unauthorised SSH connection attempts and suspicious login behaviour were connected to the activity. 
+The activity was associated with unauthorised SSH connection attempts and suspicious login behaviour. 
 
 ---
 
@@ -29,9 +28,9 @@ Examined the security alarms that the SIEM platform produced.
 
 Determined:
 
-- Untrustworthy SSH authentication activity
-- Several tries to establish a connection with port 22
-- A malicious attempt at authentication that was successful
+- Suspicious SSH authentication activity
+- Multiple connection attempts targeting port 22
+- Successful authentication attempt from a malicious IP address
 
 ---
 
@@ -57,7 +56,7 @@ Results:
 - The SOC Analyst Lab at TryHackMe
 - The SIEM Platform
 - IP Reputation scanner
-- ScannerLogs of Security Events
+- Security Event longs
 
 ---
 
@@ -84,11 +83,12 @@ Suggested SOC response:
 
 # 📚 Exhibited Skills
 
-- Investigation of SIEM alerts
-- Log analysis
-- Intelligence about threats
-- Identification of the Indicator of Compromise (IoC)
-- The procedure for escalating incidentsWorkflow for SOC analysts
+- SIEM alert investigation
+- Security log analysis
+- Threat intelligence investigation
+- Indicator of Compromise (IoC) identification
+- Incident escalation process
+- SOC analyst workflow
 
 ---
 
