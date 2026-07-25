@@ -1,39 +1,99 @@
-# soc-analyst-lab-tryhackme
+# 🔍 Level 1 SOC Analyst Lab
 
-Aspiring Cybersecurity Analyst  
-HNC Cybersecurity | CompTIA Security+ | CCNA  
-Based in Edinburgh, UK
+## 📌 Project Description
 
-##  Overview
-This report describes my practical experience while performing the Junior SOC Analyst Level 1 room on TryHackMe platform.
+This project uses the TryHackMe Junior Security Analyst Intro lab to demonstrate a basic Security Operations Centre (SOC) investigation.
 
-The purpose of this lab is to learn about the functions of a Security Operation Center analyst.
+Investigating SIEM alarms, spotting malicious behaviour, analysing indicators of compromise (IoCs), and following to the SOC escalation 
 
----
 
-## Skills Learned
-- Workflows of SOC
-- Basics of log analysis
-- Concepts of threat detection
-- Incident response basics
+--- 
 
----
+# 🚨 Overview of the Event
 
-## Tools Used
-- TryHackMe platform
-- SIEM concepts
-- Log analysis skills
+Suspicious authentication activity involving an external IP address trying to access the company's SSH service was discovered by a SIEM warning.
+
+The following malicious IP address was found during the investigation:
+
+**The malicious IP address is:** 221.181.185.159
+
+Unauthorised SSH connection attempts and suspicious login behaviour were connected to the activity. 
 
 ---
 
-## Lab Tasks Completed
-- Task 1: Introduction to SOC Analyst job
-- Task 2: Responsibilities and tools for SOC
-- Task 3: Security monitoring and detection
+# 🧪 Investigation Procedure 
+
+## 1. Analysis of SIEM Alerts
+
+Examined the security alarms that the SIEM platform produced.
+
+Determined:
+
+- Untrustworthy SSH authentication activity
+- Several tries to establish a connection with port 22
+- A malicious attempt at authentication that was successful
 
 ---
 
-## Screenshots
+## 2. Threat Intelligence Analysis
+
+The IP scanner tool was used to investigate the suspicious IP address.
+
+Results:
+
+| Indicator | Details | 
+|---|---| 
+| IP Address | 221.181.185.159 | 
+| Threat Type | Malicious activity | 
+| Confidence Score | 100% malicious | 
+| Service Targeted | SSH (Port 22) |
+
+
+
+---
+
+# 🛠️ Utilised Tools
+
+- The SOC Analyst Lab at TryHackMe
+- The SIEM Platform
+- IP Reputation scanner
+- ScannerLogs of Security Events
+
+---
+
+# 🔎 Key Findings
+
+- Suspicious SSH activity was found
+- A malicious external IP address was found
+- Verified indicator of compromise (IoC)
+- The event was escalated in accordance with SOC protocols
+
+---
+
+# ✅ Response Actions 
+
+Suggested SOC response:
+
+- Block the firewall's malicious IP address
+- Keep an eye out for additional compromises on the impacted systems
+- Examine the logs of SSH authentication
+- Examine potential account compromise
+- Implement more robust access controls
+
+---
+
+# 📚 Exhibited Skills
+
+- Investigation of SIEM alerts
+- Log analysis
+- Intelligence about threats
+- Identification of the Indicator of Compromise (IoC)
+- The procedure for escalating incidentsWorkflow for SOC analysts
+
+---
+
+# 📸 Evidence
+
 ### Task Completion
 ![Task 1](task_1.png)
 ![Task 2](task_2.png)
@@ -43,15 +103,3 @@ The purpose of this lab is to learn about the functions of a Security Operation 
 ### SOC Dashboard
 ![Dashboard](Soc-analyst-dashboard.png)
 
-
----
-
-## What I Learned
-In this lab, I learned how SOC analysts work with their systems, detect threats, and react to security incidents in real-world environments.
-
----
-
-## Next Steps
-- complete SOC-related labs
-- Practice log analysis
-- Get familiar with SIEM tools such as Splunk
