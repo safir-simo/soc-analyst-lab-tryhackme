@@ -1,4 +1,4 @@
-# 🔍 Level 1 SOC Analyst Lab
+# 📂 Level 1 SOC Analyst Lab
 
 ## 📌 Project Description
 
@@ -8,7 +8,7 @@ This project demonstrates SIEM alert investigation, detection of malicious activ
 
 --- 
 
-# 🚨 Incident Summary
+# 📢 Incident Summary
 
 Suspicious authentication activity involving an external IP address trying to access the company's SSH service was discovered by a SIEM warning.
 
@@ -20,7 +20,7 @@ The activity was associated with unauthorised SSH connection attempts and suspic
 
 ---
 
-# 🧪 Investigation Procedure 
+# 🧑🏻‍💻 Investigation Procedure 
 
 ## 1. Analysis of SIEM Alerts
 
@@ -51,7 +51,7 @@ Results:
 
 ---
 
-# 🛠️ Utilised Tools
+# 💻 Utilised Tools
 
 - The SOC Analyst Lab at TryHackMe
 - The SIEM Platform
@@ -60,7 +60,7 @@ Results:
 
 ---
 
-# 🔎 Key Findings
+# ⚠️ Key Findings
 
 - Suspicious SSH activity was found
 - A malicious external IP address was found
